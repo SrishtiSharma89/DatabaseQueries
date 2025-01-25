@@ -1,9 +1,9 @@
 public class SelectFromEmployee {
     public static void main(String[] args) {
        
-        String url = "jdbc:mysql://localhost:3306/employeedata"; // Replace 'localhost' with your server address
-        String username = "root"; // Replace with your MySQL username
-        String password = "PASSWORD"; // Replace with your MySQL password
+        String url = "jdbc:mysql://localhost:3306/employeedata"; 
+        String username = "root"; 
+        String password = "PASSWORD"; 
 
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
             System.out.println("Connected to the database!");
