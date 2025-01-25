@@ -3,7 +3,7 @@ public class SelectFromEmployee {
         // Database credentials
         String url = "jdbc:mysql://localhost:3306/employeedata"; // Replace 'localhost' with your server address
         String username = "root"; // Replace with your MySQL username
-        String password = "srishti@1234@"; // Replace with your MySQL password
+        String password = "PASSWORD"; // Replace with your MySQL password
 
         // JDBC connection
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
